@@ -60,4 +60,8 @@ class PaymentQueueSpy: PaymentQueue {
     func cancel(_ downloads: [SKDownload]) {
         
     }
+
+    func presentCodeRedemptionSheet() {
+        
+    }
 }
